@@ -1,0 +1,76 @@
+  body {
+      background-color: cadetblue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      color: rgb(16, 12, 139);
+  }
+
+  ol {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      color: rgb(112, 5, 30);
+  }
+
+  .bold {
+      font-weight: bolder;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px;
+      font-weight: bolder;
+      color: rgb(255, 153, 0);
+      text-decoration: underline;
+  }
+
+  .navbar {
+      background-color: rgb(249, 247, 250);
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: blue;
+  }
+
+  .navbar a {
+      color: black;
+  }
+
+  .navbar a :hover {
+      color: black;
+      border-radius: 5px;
+  }
+
+  .box-model {
+      padding: 15px;
+      background-color: aliceblue;
+      border: 10px solid greenyellow;
+      margin: 10px;
+      justify-content: space-around;
+      align-content: center;
+
+  }
+
+  .sidebar {
+    background-color: coral;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding: 15px;
+    box-sizing:border-box;
+
+  }
+
+  .maincontent {
+      margin-left: 220px;
+      padding: 20px;
+
+  }

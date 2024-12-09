@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgb(249, 247, 250);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a :hover {
+    color: black;
+    border-radius: 5px;
+}
